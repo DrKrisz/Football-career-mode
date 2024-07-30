@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football career game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page1">
+        <!--input for name-->
+        <button onclick="createPlayer()">Create player</button>
+        <h1>Football career game</h1>
+        <p>Create a new football player</p>
+        <label for="playerNameInput">Player's name:</label>
+        <input type="text" id="playerNameInput" placeholder="Enter player's name">
+        <label for="playerOriginInput">Choose your origin:</label>
+        <select id="playerOriginInput">
+            <option value="Europa">Europa</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="America">North America</option>
+            <option value="America">South America</option>
+            <option value="Oceania">Oceania</option>
+        
+        </select>
+    </div>
+    <div class="stats">
+        <p><span id="playerName">Player Name</span></p>
+        <p>Age: <span id="playerAge">16</span></p>
+        <p>Overall: <span id="playerOverall">50</span></p>
+        <p>Position: <span id="playerPosition">ST</span></p>
+        <p>Club: <span id="playerClub">Free agent</span></p>
+        <p>Value: <span id="playerValue">100,000 $</span></p>
+        <p>Wage: <span id="playerWage">10,000 $</span>/week</p>
+        <p>Contract length: <span id="playerContractLength">2</span></p>
+        <p>Contract remaining: <span id="playerContractRemaining">1</span></p>
+        <p>Goals: <span id="playerGoals">0</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
